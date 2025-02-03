@@ -2,7 +2,7 @@ package org.example.lessons1
 
 fun main(){
 
-
-    println("Thank you for your purchase")
+    val numberOfBuyer:Int = 75
+    val adText:String = "Thank you for your purchase"
 
 }
