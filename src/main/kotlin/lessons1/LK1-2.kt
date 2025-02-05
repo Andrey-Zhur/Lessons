@@ -8,10 +8,10 @@ fun main() {
     println(numberOfBuyer)
     println(adText)
 
-    var onlineBuyer: Int = 2000
+    var onlineBuyer1: Int = 2000
 //    println(onlineBuyer)
 
-    onlineBuyer--
-    println(onlineBuyer)
+    val onlineBuyer2 =onlineBuyer1 - 1
+    println(onlineBuyer2)
 
 }
