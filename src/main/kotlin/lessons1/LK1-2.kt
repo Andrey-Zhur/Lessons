@@ -11,7 +11,7 @@ fun main() {
     var onlineBuyer1: Int = 2000
 //    println(onlineBuyer)
 
-    val onlineBuyer2 =onlineBuyer1 - 1
+    val onlineBuyer2 = onlineBuyer1 - 1
     println(onlineBuyer2)
 
 }
