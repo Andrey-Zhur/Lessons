@@ -12,5 +12,4 @@ fun main() {
 
     println("%02d:%02d:%02d".format(hour, minute, seconds))
 
-
 }
