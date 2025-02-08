@@ -17,5 +17,4 @@ fun main() {
     catAveragevolume = volume < 100
 
     println("Груз с весом $weight кг и объемом $volume л соответствует категории 'Average': ${catAverageWeight && catAveragevolume}")
-
 }
