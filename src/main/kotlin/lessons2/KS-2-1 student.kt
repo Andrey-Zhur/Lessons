@@ -7,7 +7,7 @@ fun main() {
     val student3: Float = 3f
     val student4: Float = 5f
     val quantityStudent: Float = 4f
-    val averageRating: Float = (student1+student2+student3+student4)/quantityStudent
+    val averageRating: Float = (student1 + student2 + student3 + student4) / quantityStudent
 
     println(averageRating)
 
