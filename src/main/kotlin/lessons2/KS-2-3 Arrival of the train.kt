@@ -1,6 +1,7 @@
 package org.example.lessons2
 
 const val HOUR = 60
+const val DAY = 24
 
 fun main() {
 
@@ -10,7 +11,7 @@ fun main() {
 
     val timeOfDay = (hourDeparture * HOUR + minuteDeparture) + travelTime
 
-    val hourTravel = timeOfDay / 60 % 24
+    val hourTravel = timeOfDay / HOUR % DAY
     val minuteTravel = timeOfDay % HOUR
 
     println("Прибытие поезда $hourTravel:$minuteTravel")
